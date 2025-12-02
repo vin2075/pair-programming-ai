@@ -1,0 +1,44 @@
+/* FORCE ENTIRE PAGE TO FULL HEIGHT */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN CONTAINER FIX */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* LEFT SIDE: CODE EDITOR FULL SCREEN */
+.code-editor-container {
+  flex: 1;                 /* <-- FIX: take full width */
+  height: 100vh;           /* full height */
+  overflow: hidden;
+  border-right: 2px solid #222;
+}
+
+/* RIGHT SIDE: AI SUGGESTION PANEL */
+.ai-panel {
+  width: 350px;
+  height: 100vh;
+  overflow-y: auto;
+  background: #1e1e1e;
+  color: white;
+  padding: 10px;
+}
+
+/* CODEMIRROR FIX */
+.CodeMirror {
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 16px;
+}
+
+.CodeMirror-scroll {
+  width: 100% !important;
+  height: 100% !important;
+}
