@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Env & secrets
+.env
+.env.*
+*.env
+
+# Py packages
+venv/
+.env/
