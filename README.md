@@ -101,7 +101,7 @@ Designed for two users per room; scaling to many users requires additional optim
 
 Demo
 
-You can access the deployed frontend demo here:
+You can access the deployed frontend demo here:   https://pair-programming-ai-or7d.vercel.app/
 Pair Programming AI Demo
 
 This README focuses on general project details, design decisions, and deployment instructions without exposing local URLs or project-specific secrets.
